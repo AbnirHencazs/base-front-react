@@ -1,0 +1,16 @@
+{
+  "name": "base-front-react",
+  "version": "1.0.0",
+  "description": "Base project configuration for a standardized use of react library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Base",
+    "Javascript",
+    "ReactJS"
+  ],
+  "author": "Brian Sanchez Izquierdo <brian.sanchez@inmediatum.com>",
+  "license": "ISC"
+}
