@@ -26,6 +26,14 @@ module.exports = {
                         loader: 'html-loader'
                     }
                 ]
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif)$/,
+                type: 'asset'
+            },
+            {
+                test: /.svg$/,
+                use: ['@svgr/webpack']
             }
         ]
     },
