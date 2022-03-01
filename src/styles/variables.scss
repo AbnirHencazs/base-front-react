@@ -1,0 +1,79 @@
+$primary: #64C7D1;
+$secondary: #238EA0;
+$tertiary: #4197E8;
+$default: rgba(95, 195, 208, 30);
+$success :#6FCF97;
+$info: #2F80ED;
+$warning: #F2C94C;
+$danger: #EB5757;
+$light:#f8f9fa;
+$dark: #343a40;
+
+$text-01: #232735;
+$text-02: #505565;
+$text-03: #8B90A0;
+$text-inverse: #FFFFFF;
+
+$ui-01: #FFFFFF;
+$ui-02: #F6F6F6;
+$ui-03: #E6E7EB;
+$ui-04: #D3D4D8;
+$ui-05: #A1A4B1;
+$ui-06: #232735;
+$ui-07: #08133A;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "ui-01":      $ui-01,
+    "ui-02":      $ui-02,
+    "ui-03":      $ui-03,
+    "ui-04":      $ui-04,
+    "ui-05":      $ui-05,
+    "ui-06":      $ui-06,
+    "ui-07":      $ui-07,
+    "text-01":    $text-01,
+    "text-02":    $text-02,
+    "text-03":    $text-03,
+    "inverse":    $text-inverse
+  ),
+  $theme-colors
+);
+
+// Spacing
+
+$space-xxs: .25rem;
+$space-xs: .5rem;
+$space-s: 1rem;
+$space-m: 1.5rem;
+$space-l: 2rem;
+$space-xl: 3rem;
+$space-xl2: 3.5rem;
+$space-xxl: 4rem;
+$space-xxxl: 8rem;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: $space-xxs,
+    2: $space-xs,
+    3: $space-s,
+    4: $space-m,
+    5: $space-l,
+    6: $space-xl,
+    7: $space-xl2,
+    8: $space-xxl,
+    9: $space-xxxl
+  ),
+  $spacers
+);

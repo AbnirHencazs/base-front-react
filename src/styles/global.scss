@@ -1,9 +1,2 @@
-$ui-01: #FFFFFF;
-$ui-02: #070707;
-
-$text-inverse: #FFFFFF;
-
-body{
-    background-color: $ui-02;
-    color: $text-inverse;
-}
+@import './variables.scss';
+@import "~bootstrap/scss/bootstrap";
