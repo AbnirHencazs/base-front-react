@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 700;
+        color: theme('colors.text-01')
+    }
+}
