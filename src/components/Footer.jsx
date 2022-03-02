@@ -5,7 +5,7 @@ const Footer = () => {
     const { theme } = useGlobals()
     return (
         <div>
-            <p>The theme is set to {theme} mode</p>
+            <p className='dark:text-text-inverse'>The theme is set to {theme} mode</p>
         </div>
     )
 }

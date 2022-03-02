@@ -1,6 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base{
     h1{
@@ -10,3 +8,13 @@
         color: theme('colors.text-01')
     }
 }
+
+@tailwind components;
+
+@layer components{
+    .btn-primary{
+        @apply py-xs px-sm bg-brand-02 text-text-inverse font-bold rounded-md hover:bg-hover-primary focus:outline-none focus:ring-2 focus:ring-brand-01 focus:ring-opacity-75 dark:bg-brand-01 dark:text-text-01 dark:focus:ring-brand-02
+    }
+}
+
+@tailwind utilities;
