@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}", "./public/index.html"],
+  darkMode: 'class',
   theme: {
     extend: {
       colors:{
@@ -20,7 +21,8 @@ module.exports = {
         'info': '#2F80ED',
         'success': '#6FCF97',
         'error': '#FB6130',
-        'warning': '#F2C94C'
+        'warning': '#F2C94C',
+        'hover-primary': '#12A5B1'
       },
       spacing: {
         xxs: '4px',
